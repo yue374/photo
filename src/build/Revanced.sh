@@ -49,7 +49,7 @@ revanced_dl(){
 	# Arm64-v8a
 	get_patches_key "gg-photos"
  	version="6.93.0.659607037"
-	get_apk "com.google.android.apps.photos" "gg-photos-arm64-v8a" "photos" "google-inc/photos/photos" "x86_64" "nodpi"
+	get_apk "com.google.android.apps.photos" "gg-photos-arm64-v8a" "photos" "google-inc/photos/photos" "arm64-v8a" "nodpi"
 	patch "gg-photos-arm64-v8a" "revanced"
 	# Armeabi-v7a
 	get_patches_key "gg-photos"
